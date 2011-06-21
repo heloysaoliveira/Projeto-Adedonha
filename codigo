@@ -1,0 +1,43 @@
+if(palavra[0]==n){
+				resultado="valida";
+				}else{
+				      resultado="invalida";
+					}		
+				}
+		if(palavra.length()<2){
+			resultado="invalida";
+			}else{
+				resultado="valida";
+				}
+
+/*cout<<"Digite seu nome"<<endl;
+	getline(cin,nome);
+	cout<<"Digite seu endereço IP"<<endl;
+	getline(cin,IP);
+	cout<<"Defina o nome da sala"<<endl;
+	getline(cin,sala);
+	cout<<"Defina o numero maximo de jogadores na sala"<<endl;
+	cin>>numero;
+	cout<<"Defina a quantidade de rodadas"<<endl;
+	cin>>rodadas;
+	cout<<"A resposta do seu adversario é verdadeira ou falsa?"<<endl;
+	cout<<"Digite 1 para verdadeira e 2 para falsa"<<endl;
+	cin>>reply;
+	jogador.verificar(numero);
+	jogador.verificarRodadas(rodadas);
+	jogador.validarPalavra(reply);
+
+void verificar(int numero){
+		if(numero>max){
+			cout<<"Digite um valor menor que 15 e maior que 3"<<endl;
+				}if(numero<min){
+				cout<<"Digite um valor menor que 15 e maior que 3"<<endl;
+						}
+				}	
+
+	void verificarRodadas(int rodadas){
+		if(rodadas>30){
+			cout<<"Digite um numero de rodadas entre 10 e 30"<<endl;
+				}if(rodadas<10){
+					cout<<"Digite um numero de rodadas entre 10 e 						30"<<endl;
+						}
